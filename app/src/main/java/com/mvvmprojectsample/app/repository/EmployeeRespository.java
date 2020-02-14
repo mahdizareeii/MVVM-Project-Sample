@@ -1,4 +1,4 @@
-package com.mvvmprojectsample.app.util.repository;
+package com.mvvmprojectsample.app.repository;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

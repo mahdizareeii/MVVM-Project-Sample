@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.mvvmprojectsample.app.model.employee.Employee;
-import com.mvvmprojectsample.app.util.repository.EmployeeRespository;
+import com.mvvmprojectsample.app.repository.EmployeeRespository;
 
 import java.util.List;
 

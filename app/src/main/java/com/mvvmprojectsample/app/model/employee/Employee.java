@@ -9,7 +9,7 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.google.gson.annotations.SerializedName;
 
-public class Employee {
+public class Employee{
 
     @SerializedName("id")
     private int id;
@@ -18,7 +18,7 @@ public class Employee {
     private String email;
 
     @SerializedName("first_name")
-    private String fistName;
+    private String firstName;
 
     @SerializedName("last_name")
     private String lastName;
@@ -42,12 +42,12 @@ public class Employee {
         this.email = email;
     }
 
-    public String getFistName() {
-        return fistName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFistName(String fistName) {
-        this.fistName = fistName;
+    public void setFirstName(String fistName) {
+        this.firstName = fistName;
     }
 
     public String getLastName() {

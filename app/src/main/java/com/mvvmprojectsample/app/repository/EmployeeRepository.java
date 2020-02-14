@@ -11,7 +11,7 @@ import com.mvvmprojectsample.app.util.retrofit.RetrofitHelper;
 
 import java.util.List;
 
-public class EmployeeRespository {
+public class EmployeeRepository {
 
     private MutableLiveData<List<Employee>> employeeLiveData = new MutableLiveData<>();
 

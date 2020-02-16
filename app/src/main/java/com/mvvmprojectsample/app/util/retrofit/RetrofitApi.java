@@ -1,6 +1,6 @@
 package com.mvvmprojectsample.app.util.retrofit;
 
-import com.mvvmprojectsample.app.model.employee.EmployeeData;
+import com.mvvmprojectsample.app.model.webService.employee.EmployeeData;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;

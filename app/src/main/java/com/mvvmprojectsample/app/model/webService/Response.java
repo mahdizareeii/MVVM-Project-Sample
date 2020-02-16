@@ -1,4 +1,4 @@
-package com.mvvmprojectsample.app.model;
+package com.mvvmprojectsample.app.model.webService;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -3,8 +3,8 @@ package com.mvvmprojectsample.app.repository;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.mvvmprojectsample.app.model.employee.Employee;
-import com.mvvmprojectsample.app.model.employee.EmployeeData;
+import com.mvvmprojectsample.app.model.webService.employee.Employee;
+import com.mvvmprojectsample.app.model.webService.employee.EmployeeData;
 import com.mvvmprojectsample.app.util.retrofit.OnCallBack;
 import com.mvvmprojectsample.app.util.retrofit.RetrofitClient;
 import com.mvvmprojectsample.app.util.retrofit.RetrofitHelper;

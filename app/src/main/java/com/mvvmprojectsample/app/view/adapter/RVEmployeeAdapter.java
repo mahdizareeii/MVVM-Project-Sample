@@ -1,6 +1,9 @@
 package com.mvvmprojectsample.app.view.adapter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -9,7 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.mvvmprojectsample.app.R;
 import com.mvvmprojectsample.app.databinding.RecyclerViewItemBinding;
-import com.mvvmprojectsample.app.model.employee.Employee;
+import com.mvvmprojectsample.app.model.webService.employee.Employee;
+import com.mvvmprojectsample.app.view.ui.SampleActivity;
 
 import java.util.List;
 
@@ -27,9 +31,16 @@ public class RVEmployeeAdapter extends RecyclerView.Adapter<RVEmployeeAdapter.RV
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RVEmployeeViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final RVEmployeeViewHolder holder, int position) {
         Employee employee = list.get(position);
         holder.recyclerViewItemBinding.setEmployee(employee);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Context context = holder.recyclerViewItemBinding.imgAvatar.getContext();
+                context.startActivity(new Intent(context, SampleActivity.class));
+            }
+        });
     }
 
     @Override

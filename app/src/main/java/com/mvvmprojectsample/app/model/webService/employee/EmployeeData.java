@@ -1,7 +1,7 @@
-package com.mvvmprojectsample.app.model.employee;
+package com.mvvmprojectsample.app.model.webService.employee;
 
 import com.google.gson.annotations.SerializedName;
-import com.mvvmprojectsample.app.model.Response;
+import com.mvvmprojectsample.app.model.webService.Response;
 
 import java.util.List;
 
